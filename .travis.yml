@@ -19,6 +19,7 @@ install:
 script:
   - npm run tslint
   - npm run unittest
+  - npm run integrationtest
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
